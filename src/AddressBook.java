@@ -14,4 +14,8 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddyObj) {
         buddyInfo.remove(buddyObj);
     }
+
+    public static void main(String[] args) {
+        System.out.println("Address Book");
+    }
 }
