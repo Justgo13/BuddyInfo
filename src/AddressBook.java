@@ -22,3 +22,4 @@ public class AddressBook {
         addressBook.removeBuddy(buddyInfo);
     }
 }
+//This is a change made on GitHub
