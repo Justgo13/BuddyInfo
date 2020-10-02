@@ -19,12 +19,17 @@ public class AddressBook {
         System.out.println("testing branch");
     }
 
+    public static void testBranchMethod() {
+        System.out.println("test branch again");
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddyInfo = new BuddyInfo("Jason", "Carleton","613");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddyInfo);
         addressBook.removeBuddy(buddyInfo);
         testMethod();
+        testBranchMethod();
     }
 }
 //This is a change made on GitHub
